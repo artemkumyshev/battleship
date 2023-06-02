@@ -1,0 +1,52 @@
+# compiled output
+/app/backend/dist
+/app/backend/node_modules
+
+# Logs
+/app/backend/logs
+/app/backend/*.log
+/app/backend/npm-debug.log*
+/app/backend/pnpm-debug.log*
+/app/backend/yarn-debug.log*
+/app/backend/yarn-error.log*
+/app/backend/lerna-debug.log*
+
+# OS
+/app/backend/.DS_Store
+
+# Tests
+/app/backend/coverage
+/app/backend/.nyc_output
+
+# IDEs and editors
+/app/backend/.idea
+/app/backend/.project
+/app/backend/.classpath
+/app/backend/.c9/
+/app/backend/*.launch
+/app/backend/.settings/
+/app/backend/*.sublime-workspace
+
+# IDE - VSCode
+/app/backend/.vscode/*
+/app/backend/!.vscode/settings.json
+/app/backend/!.vscode/tasks.json
+/app/backend/!.vscode/launch.json
+/app/backend/!.vscode/extensions.json
+
+
+# dependencies
+/app/frontend/node_modules
+
+# testing
+/app/frontend/coverage
+
+# component build
+/app/frontend/dist
+
+# misc
+/app/frontend/.DS_Store
+
+
+/docker/dev/pgadmin-data
+/docker/dev/pgdata

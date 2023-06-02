@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "@/auth/*": ["./modules/auth/*"],
+      "@/chat/*": ["./modules/chat/*"],
+      "@/user/*": ["./modules/user/*"],
+      "@/configs/*": ["./shared/configs/*"],
+      "@/decorators/*": ["./shared/decorators/*"],
+      "@/dto/*": ["./shared/dto/*"],
+      "@/entities/*": ["./shared/entities/*"],
+      "@/enums/*": ["./shared/enums/*"],
+      "@/exceptions/*": ["./shared/exceptions/*"],
+      "@/interceptors/*": ["./shared/interceptors/*"],
+      "@/middlewares/*": ["./shared/middlewares/*"],
+      "@/utils/*": ["./shared/utils/*"],
+    }
+  }
+}
